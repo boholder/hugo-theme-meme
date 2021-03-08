@@ -17,5 +17,9 @@
             <div id="utterances"></div>
         {{ end }}
 
+        {{ if and .Site.Params.enableGitalk}}
+            {{ partial "third-party/gitalk.html"}}
+        {{ end }}
+
     {{ end }}
 {{ end }}
