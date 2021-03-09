@@ -17,8 +17,8 @@
             <div id="utterances"></div>
         {{ end }}
 
-        {{ if and .Site.Params.enableGitalk}}
-            {{ partial "third-party/gitalk.html"}}
+        {{ if .Site.Params.enableGitalk}}
+            <div id="gitalk"></div>
         {{ end }}
 
     {{ end }}
