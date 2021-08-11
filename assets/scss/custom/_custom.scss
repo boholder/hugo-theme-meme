@@ -1,5 +1,5 @@
-// .post-body {
-//     a {
-//         text-decoration: underline;
-//     }
-// }
+.post-body {
+    a:not(.headings) {
+        color: hsl(220, 90%, 56%);
+    }
+}
