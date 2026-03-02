@@ -344,7 +344,7 @@ uglyURLs = false
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = "yixiuer"
     # 说明：用于 Twitter Cards
 
 
@@ -477,6 +477,10 @@ uglyURLs = false
     #      题自定义的 Atom 和 RSS 的模板中，
     #      有一个比手动指定更高的优先级——
     #      Front Matter 中的 `description`。
+
+    # 自定页脚（支持 Template 与 Markdown 语法）
+    feedFooter = """> 阅读原文：<{{ .Permalink }}>  
+> 博客公告：博客现已开通邮件订阅，欢迎[通过 Substack 订阅](https://username.substack.com)支持我的创作！"""
 
 
     ######################################
@@ -1084,8 +1088,8 @@ uglyURLs = false
     ######################################
     ## 着重号
 
-    # 说明：MemE 主题自创的新 Markdown 语法
-    #      `..文本..`
+    # 说明：MemE 主题定义的语法 `..文本..`
+    #      https://www.w3.org/International/clreq/#id84
 
     # 是否开启
     enableEmphasisPoint = true
@@ -1181,7 +1185,7 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    postShareItems = ["facebook", "mastodon", "fediverse", "twitter", "linkedin", "telegram", "weibo", "douban", "qq", "qzone", "pocket", "hackernews", "qrcode", "email"]
+    postShareItems = ["facebook", "mastodon", "fediverse", "x", "linkedin", "telegram", "weibo", "douban", "qq", "qzone", "pocket", "hackernews", "qrcode", "email"]
 
     # 从网络获取 Fediverse 实例列表用于输入建议
     fetchFediverseInstances = false
@@ -1488,6 +1492,6 @@ uglyURLs = false
         # 网站（默认值：baseURL）
         website = "https://io-oi.me/"
         # 推特
-        twitter = "reuixiy"
+        twitter = "yixiuer"
         # Fediverse
-        fediverse = "@reuixiy@bird.makeup"
+        fediverse = "@yixiuer@mastodon.social"

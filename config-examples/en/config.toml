@@ -359,7 +359,7 @@ uglyURLs = false
     # ATTENTION: keep this format, change
     #            the number
 
-    siteTwitter = "reuixiy"
+    siteTwitter = "yixiuer"
     # Note: used for Twitter Cards
 
 
@@ -520,6 +520,10 @@ uglyURLs = false
     #       than assign manually in the
     #       custom Atom & RSS template of
     #       MemE.
+
+    # Custom Footer (Supports Template and Markdown syntax)
+    feedFooter = """> Read original: <{{ .Permalink }}>  
+> Notice: This blog now offers email subscriptions—feel free to [subscribe via Substack](https://username.substack.com) to support my work!"""
 
 
     ######################################
@@ -1152,8 +1156,8 @@ uglyURLs = false
     ######################################
     ## Emphasis Point (Chinese)
 
-    # Note: new Markdown syntax created by MemE
-    #       `..文本..`
+    # Note: syntax defined by MemE `..文本..`
+    #       https://www.w3.org/International/clreq/#id84
 
     enableEmphasisPoint = false
 
@@ -1230,7 +1234,7 @@ uglyURLs = false
 
     displayShareOnText = false
 
-    postShareItems = ["facebook", "mastodon", "fediverse", "twitter", "linkedin", "telegram", "weibo", "douban", "qq", "qzone", "pocket", "hackernews", "qrcode", "email"]
+    postShareItems = ["facebook", "mastodon", "fediverse", "x", "linkedin", "telegram", "weibo", "douban", "qq", "qzone", "pocket", "hackernews", "qrcode", "email"]
 
     # Fetch fediverse instances list for
     # input suggestions
@@ -1527,6 +1531,6 @@ uglyURLs = false
         # Personal website, default: baseURL
         website = "https://io-oi.me/"
         # Twitter
-        twitter = "reuixiy"
+        twitter = "yixiuer"
         # Fediverse
-        fediverse = "@reuixiy@bird.makeup"
+        fediverse = "@yixiuer@mastodon.social"
